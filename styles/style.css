@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#search-div {
+    /* width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* margin: auto;
+    width: 50%;
+    padding: 10px; */
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+#footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+  
+    /* And if you want the div to be full-width: */
+    left: 0;
+    right: 0;
+}
