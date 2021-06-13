@@ -7,38 +7,50 @@
         <link rel="stylesheet" href="styles/style.css">
         <title>Google</title>
     </head>
-
-    <body>
-        <ul>
+    <header>
+        <ul id="navbar">
             <li><a>Gmail</a></li>
             <li><a>Images</a></li>
             <li><a><span class="material-icons">apps</span></a></li>
-            <li><button>Sign in</button></li>
+            <li><button id="sign-in">Sign in</button></li>
         </ul>
+    </header>
+    
+    <body>    
         <div id="search-div">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <img id="stock-google-image" src="images/google_logo.png" alt="Google logo">
             <br>
-            <input id="search-text" type="text">
+            <div>
+                <div class="input-container">
+                    <img src="images/search.png" id="search-icon" alt="Search Icon">
+                    <input id="search-text" type="text">
+                    <img src="images/mic.png" id="mic-icon" alt="Mic Icon">
+                </div>
+            </div>
             <br>
-            <button type="submit" class="search-box-button">Google Search</button>
-            <button class="search-box-button">I'm Feeling Lucky</button>
+            <div>
+                <button type="submit" class="search-box-button">Google Search</button>
+                <button class="search-box-button" id="lucky">I'm Feeling Lucky</button>
+            </div>
         </div>
     </body>
 
     <footer>
         <p>India</p>
         <hr>
-        <ul id="footer-left">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search works</a></li>
-        </ul>
+        <div id="footer-div">
+            <div class="footer-links">
+                <a href="#" class="link">About</a>
+                <a href="#" class="link">Advertising</a>
+                <a href="#" class="link">Business</a>
+                <a href="#" class="link">How Search works</a>
+            </div>
 
-        <ul id="footer-right">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
-        </ul>
+            <div class="footer-links">
+                <a href="#" class="link">Privacy</a>
+                <a href="#" class="link">Terms</a>
+                <a href="#" class="link">Settings</a>
+            </div>
+        </div>
     </footer>
 </html>
