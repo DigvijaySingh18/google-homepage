@@ -73,6 +73,13 @@ ul {
     font-family: arial,sans-serif;
 }
 
+.search-box-button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 #footer-div {
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +111,10 @@ ul {
     padding: 15px 15px 15px 15px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 p{
     display: block;
     margin-left: 1em;
@@ -122,6 +133,11 @@ header {
     display: block;
     position: relative;
 }
+
+li {
+    margin-left: 6px;
+    margin-right: 6px;
+}
  
 footer{
     position: absolute;
@@ -132,9 +148,18 @@ footer{
 }
 
 a{
-    color: #3c4043;
+    /* color: #3c4043; */
+    color: #70757a;
     font-family: arial,sans-serif;
     text-decoration: none;
+}
+
+.new-apps{
+    color: #3c4043;
+}
+
+.new-apps:hover{
+    text-decoration: underline;
 }
 
 #navbar {
