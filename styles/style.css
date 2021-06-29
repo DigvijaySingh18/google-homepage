@@ -134,6 +134,19 @@ header {
     position: relative;
 }
 
+#sign-in{
+    border-radius: 4px;
+}
+
+#country{
+    color: #70757a;
+}
+
+#sign-in:hover{
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
 li {
     margin-left: 6px;
     margin-right: 6px;
@@ -152,6 +165,10 @@ a{
     color: #70757a;
     font-family: arial,sans-serif;
     text-decoration: none;
+}
+
+#apps:hover{
+    zoom: 1.05;
 }
 
 .new-apps{
